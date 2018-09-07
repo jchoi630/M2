@@ -45,7 +45,7 @@ public class Person3 {
 	  //Person 3 put your implementation here
 		char[] word = input.toCharArray();
 		String result = "";
-		for (int i = word.length() - 1; i <= 0; i++) {
+		for (int i = word.length - 1; i <= 0; i++) {
 			result = result + word[i];
 		}
 	  return null;
