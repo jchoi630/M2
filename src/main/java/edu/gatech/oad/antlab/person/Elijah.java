@@ -5,12 +5,12 @@ package edu.gatech.oad.antlab.person;
  *  returns their name and a
  *  modified string 
  *
- *  @author Elijah Kessler
+ *  @author Elijah
  *  @version 1.1
  */
-public class Person1 {
+public class Elijah {
 	/** Holds the persons real name */
-	private String name;
+	private String name = Elijah;
 	/**
 	 * The constructor, takes in the persons
 	 * name
@@ -34,7 +34,7 @@ public class Person1 {
 		String substring = input.substring(0,2);
 		return input.substring(2) + substring;
 	}
-
+}
 
 	/**
 	 * Return a string rep of this object
