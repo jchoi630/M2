@@ -34,7 +34,7 @@ public class Elijah {
 		String substring = input.substring(0,2);
 		return input.substring(2) + substring;
 	}
-}
+
 
 	/**
 	 * Return a string rep of this object
